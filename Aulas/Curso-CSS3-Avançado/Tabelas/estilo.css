@@ -1,0 +1,32 @@
+table  {
+    width: 600px;
+    /*Comando para colar as bordas da tabela*/
+    border-collapse: separate; /*collapse*/
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    /*Comando para colocar as letras maiusculas*/
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    /*Comando para dar um espaçamento maior entre as letras*/
+    letter-spacing: 0.1em;
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #c3e6e5;
+}
+
+.numero {
+    text-align: right;
+}

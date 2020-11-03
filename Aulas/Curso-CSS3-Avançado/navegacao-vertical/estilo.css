@@ -1,0 +1,34 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a { /*Quando você quiser voltar uma pasta acima, usasse .. para fazer isso*/
+    width: 200px;
+    height: 40px;
+    /*Sempre que um item não for em block, usasse esse comando*/
+    display: block;
+    color: #000;
+    text-decoration: none;
+    /*O comando text-indent é para mover para frente o texto*/
+    text-indent: 40px;
+    /*Esse comando aumenta o tamanho da linha*/
+    line-height: 40px;
+    background: #f7b600 url(imagens/menu.png) no-repeat left bottom;
+}
+a:hover {
+    background-position: right bottom;
+    background-color: #F99200;
+    color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a {
+    background-position: right bottom;
+    background-color: #F99200;
+    color: #fff;
+}
+
+
